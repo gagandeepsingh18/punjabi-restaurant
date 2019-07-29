@@ -1,0 +1,40 @@
+﻿body 
+{
+    background: white;
+}
+#header 
+{
+   height:75px;
+   width:100%;
+   background:black;
+   box-shadow: 0px 3px 6px gray; 
+    }
+#navbar
+{
+   height:75px;
+   width:100%;
+float: right; 
+    }
+#navbar>li
+{
+height:75px;
+width:200px;
+float: right;
+border-right: 2px gray;
+border-left: 2px gray;
+list-style: none; 
+    }    
+li>a
+{
+    color:White;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    font-size:small;
+    }       
+  li>a: hover;
+  li>a: focus  
+  {
+      color:Navy;
+      background: green;
+      }
