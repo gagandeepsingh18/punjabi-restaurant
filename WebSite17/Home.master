@@ -7,26 +7,25 @@
     <title></title>
     
     <link rel="stylesheet" href="css\masterpage.css" type="text/css" />
+     <link rel="stylesheet" href="css\StyleSheet.css" type="text/css" />
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="Main_form" runat="server">
+   <form id="Main_form" runat="server">
   <div id="header">
     <ul id="navbar">
-    <li><a href="#">Home </a></li>
-    <li><a href="#">About Us</a></li>
-    <li><a href="#">Menu</a></li>
-    <li><a href="#">
-        <asp:DropDownList BackColor="black" color ID="DropDownList1" runat="server">
-        <asp:ListItem Enabled=true Text="package" Value=-1 ></asp:ListItem>
-        <asp:ListItem  Text="buffet" Value=1 ></asp:ListItem>
-        <asp:ListItem  Text="wedding" Value=2 ></asp:ListItem>
-        <asp:ListItem Text="party" Value=3 ></asp:ListItem>
-        </asp:DropDownList>
-         </a></li>
-    <li><a href="#">Career </a></li>
-    <li><a href="#">Contact Us </a></li>
+    <li><a href="Logout.aspx">Logout </a></li>
+      <li><a href="contact.aspx">Contact Us </a></li>
+     
+    <li><a href="about.aspx">About Us</a></li>
+    <li><a href="Review,aspx">Review</a></li>
+     <li><a href="career.aspx">Career </a></li>
+    <li><a href="food.aspx">Food</a></li>
+   
+  
+    <li><a href="Main.aspx">Home </a></li>
+    
     </ul>
    </div>
     
@@ -36,5 +35,6 @@
         </asp:ContentPlaceHolder>
     </div>
     </form>
+    
 </body>
 </html>

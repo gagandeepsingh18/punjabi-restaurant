@@ -11,4 +11,8 @@ public partial class Home : System.Web.UI.MasterPage
     {
 
     }
+    protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+    }
 }
